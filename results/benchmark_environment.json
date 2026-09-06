@@ -1,0 +1,19 @@
+{
+  "started_at_utc": "2026-09-05T17:33:49.316937+00:00",
+  "python": "3.12.14",
+  "cryptography": "50.0.0",
+  "openssl": "OpenSSL 3.6.3 9 Jun 2026",
+  "voters": [
+    10,
+    50,
+    100
+  ],
+  "runs_per_load": 5,
+  "timer": "time.perf_counter_ns, elapsed milliseconds",
+  "summary": "Mean and sample standard deviation across independent runs",
+  "per_voter_metrics": "*_mean: within-run mean, then aggregated across runs",
+  "setup_includes": "Authority keys, manifest, secret shares and account setup",
+  "client_creation_includes": "Manifest verification and temporary RSA key generation",
+  "tally_includes": "Key reconstruction, tally and checks by two signing trustees",
+  "size_encoding": "Deterministic UTF-8 JSON; Merkle proof includes index, tree_size, path"
+}

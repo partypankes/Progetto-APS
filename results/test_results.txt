@@ -1,0 +1,23 @@
+test_binary_values_and_public_keys_are_canonical (test_crypto.CryptoTests.test_binary_values_and_public_keys_are_canonical) ... ok
+test_hybrid_parameters_and_json_opened_directly (test_crypto.CryptoTests.test_hybrid_parameters_and_json_opened_directly) ... ok
+test_json_determinism_and_explicit_fields (test_crypto.CryptoTests.test_json_determinism_and_explicit_fields) ... ok
+test_json_rejects_invalid_types_fields_and_representations (test_crypto.CryptoTests.test_json_rejects_invalid_types_fields_and_representations) ... ok
+test_merkle_zero_one_and_odd_tree (test_crypto.CryptoTests.test_merkle_zero_one_and_odd_tree) ... ok
+test_shamir_and_aes_key_custody (test_crypto.CryptoTests.test_shamir_and_aes_key_custody) ... ok
+test_signature_and_hash_match_independent_json_contexts (test_crypto.CryptoTests.test_signature_and_hash_match_independent_json_contexts) ... ok
+test_scenarios_reject_without_changing_current_election (test_menu.MenuTests.test_scenarios_reject_without_changing_current_election) ... ok
+test_scenarios_require_the_current_election_and_its_data (test_menu.MenuTests.test_scenarios_require_the_current_election_and_its_data) ... ok
+test_audit_rejects_tampered_transcripts (test_protocol.ProtocolTests.test_audit_rejects_tampered_transcripts) ... ok
+test_complete_flow_receipts_tally_and_public_audit (test_protocol.ProtocolTests.test_complete_flow_receipts_tally_and_public_audit) ... ok
+test_tally_requires_distinct_trustees_including_an_empty_election (test_protocol.ProtocolTests.test_tally_requires_distinct_trustees_including_an_empty_election) ... ok
+test_valid_votes_and_outer_inner_errors_are_counted_separately (test_protocol.ProtocolTests.test_valid_votes_and_outer_inner_errors_are_counted_separately) ... ok
+test_concurrent_issuance_and_first_accepted_preserve_one_original (test_regressions.RegressionTests.test_concurrent_issuance_and_first_accepted_preserve_one_original) ... ok
+test_password_and_original_credential_recovery_after_close (test_regressions.RegressionTests.test_password_and_original_credential_recovery_after_close) ... ok
+test_recovery_preserves_immutable_entry_receipt_and_root (test_regressions.RegressionTests.test_recovery_preserves_immutable_entry_receipt_and_root) ... ok
+test_time_boundaries_and_future_root_do_not_advance_mix (test_regressions.RegressionTests.test_time_boundaries_and_future_root_do_not_advance_mix) ... ok
+test_trustee_refuses_false_count_even_when_quadratures_match (test_regressions.RegressionTests.test_trustee_refuses_false_count_even_when_quadratures_match) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 9.566s
+
+OK
